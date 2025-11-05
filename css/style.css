@@ -2,21 +2,15 @@
 
 :root {
     /* Main (color-primary) #08A6E4
-
 Main used for shadows (color-primary-shadow) rgba(7, 172, 230, .16)
-
 Red accent (color-redish) 832cb31f-c0e4-4c7c-8cfd-8120400cc2
-
 Green accent (color-green) #55DFB4
-
 Black (color-black) #000000
-
 Grey (color-grey) #A5A5A5
-
 Light grey (color-light-grey) #F7F7F7
-
 White (color-white) #FFFFFF*/
-    --primary-color: #08A6E4;;
+    --primary-color: #08A6E4;
+    --primary-shadow-color: rgba(7, 172, 230, .16)
     --white-color: #FFFFFF;
     --whitebluish-color: #F7F7F7;
     --whiteblue-color: #E8E9ED;
@@ -25,6 +19,7 @@ White (color-white) #FFFFFF*/
     --lighterblue-color: #07ACE6;
     --darkgrey-color: #FF091129;
     --darkestgrey-color: #F9043629;
+    /*--red-accent-color: 832cb31f-c0e4-4c7c-8cfd-8120400cc2;  */
     --pinky-color: #FB3B64;
     --darkpinky-color: #EB476E;
     --tealgreen-color: #55dfb4;
@@ -42,7 +37,7 @@ body {
 }
 h2 {
   font-family: var(--font-raleway);
-  font-size: 2em /* 2.25rem  36px */
+  font-size: 2em; /* 2.25rem  36px */
 }
 
 /**
@@ -51,8 +46,9 @@ h2 {
 .header {
   height: 70px;
   box-shadow: 0 3px 6px rgba(0,0,0,.16);
+  width: 100%;
 }
-header__container {
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,7 +77,9 @@ nav .nav__header .nav__element {
 .footer {
 
 }
+.footer .footer__container {
 
+}
 
 
 
