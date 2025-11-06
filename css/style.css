@@ -188,9 +188,10 @@ nav .nav__header .nav__element {
 
 .benefits {
   display: flex;
-  align-items: flex-start;
+  align-items:flex-start ;
   flex-direction: column;
   background-color: #F7F7F7;
+  
 }
 .benefits__div {
   
@@ -215,12 +216,13 @@ nav .nav__header .nav__element {
 }
  
 .benefits__image2 {
-  padding-right: 400px;
+  padding-right: 200px;
 }
 
 .benefits__div .benefits__image3 {
   padding-left: 400px;
 }
+
 
 /* Pricing
  */
