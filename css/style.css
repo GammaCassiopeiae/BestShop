@@ -97,7 +97,11 @@ nav .nav__header .nav__element {
   width: 100%;
 }
 
-
+.btn-primary {
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  padding: 15px 90px;
+}
 .btn-primary1 {
   border: none;
   border-radius: var(--button-radius);
@@ -225,9 +229,10 @@ nav .nav__header .nav__element {
 
 .pricing__boxes {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 
@@ -249,8 +254,7 @@ nav .nav__header .nav__element {
   height: 100px;
   margin: 0 40px;
   box-shadow: 5px 1px 27px var(--primary-shadow-color);
- 
-  
+
 }
 .pricing__box--premium {
   width: 100px;
