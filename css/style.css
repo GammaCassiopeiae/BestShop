@@ -31,6 +31,7 @@ White (color-white) #FFFFFF*/
     --black-color: #000000;
     --font-raleway: "Raleway", sans-serif;
     --font-open-sans: "Open Sans", sans-serif;
+    --button-radius: 35px;
 }
 body {
   font-family: var(--font-open-sans);
@@ -94,19 +95,33 @@ nav .nav__header .nav__element {
 .opening__image {
   width: 100%;
 }
-.btn {
-  cursor: pointer;
-  color: white;
-  font-weight: bold;
-  display: inline-block;
-}
 
-.btn--primary {
-  border-radius: 40px;
+
+a .btn-primary1 {
+  border: none;
+  border-radius: var(--button-radius);
+  margin: 1px solid var(--darkpinky-color);
+  background-color: var(--darkpinky-color);
+  color: var(--white-color);
+  padding: 20px 155px;
+}
+a .btn-primary2 {
+  border: none;
+  border-radius: var(--button-radius);
   background-color: var(--primary-color);
   color: var(--white-color);
-  padding: 22px 155px;
+  padding: 20px 155px;
 }
+a .btn-primary3 {
+  border: none;
+  border-radius: var(--button-radius);
+  
+  background-color: var(--tealgreen-color);
+  color: var(--white-color);
+  padding: 20px 155px;
+}
+
+
 .statistics .statistics__div {
   text-align: center;
   max-width: 800px;
@@ -159,21 +174,42 @@ nav .nav__header .nav__element {
 }
 
 .benefits {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
   background-color: #F7F7F7;
 }
 .benefits__div {
+  
   box-sizing: content-box;
     margin: 90px 36px;
     max-width: 415px;
+    
 }
 .benefits .benefits__div .benefits__header {
-  display: block;
+  display: flex;
   border-radius: 5px;
   text-align: left;
 }
+.benefits .paragraph {
+  line-height: 1.375rem;
+  margin-top: 30px;
+}
 
 
- /* Pricing
+.benefits__div .benefits__image1 {
+  padding-left: 400px;
+}
+ 
+.benefits__image2 {
+  padding-right: 400px;
+}
+
+.benefits__div .benefits__image3 {
+  padding-left: 400px;
+}
+
+/* Pricing
  */
 
 .pricing {
