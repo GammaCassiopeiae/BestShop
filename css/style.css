@@ -35,7 +35,7 @@ White (color-white) #FFFFFF*/
 }
 body {
   font-family: var(--font-open-sans);
-  width: 95%;
+  width: 100%;
 }
 h2 {
   font-family: var(--font-raleway);
@@ -109,6 +109,7 @@ nav .nav__header .nav__element {
   background-color: var(--darkpinky-color);
   color: var(--white-color);
   padding: 20px 80px;
+  text-align: center;
   
 }
 .btn-primary2 {
@@ -128,7 +129,10 @@ nav .nav__header .nav__element {
   bottom: 25px;
 }
 
-
+.statistics {
+  display: flex;
+  flex-direction: column;
+}
 .statistics .statistics__div {
   text-align: center;
   max-width: 800px;
@@ -148,7 +152,7 @@ nav .nav__header .nav__element {
 }
 .statistics__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .statistics__box {
   display: flex;
@@ -159,24 +163,26 @@ nav .nav__header .nav__element {
   font-family: var(--font-raleway);
 }
 .statistics__circle {
-  border-radius: 50%;
+  border-radius: 60%;
   width: 65px;
   height: 65px;
   position: relative;
+  padding-right: 800px;
 }
 .statistics__container  .statistics__box:nth-child(1) .statistics__circle {
   background-color: #FB3B64;
-  padding-left: 30px;
+  padding-right: 5px;
+  border-radius: 90%;
 }
 .statistics__container  .statistics__box:nth-child(2) .statistics__circle {
   background-color: #08A6E4;
-  padding-left: 25px;
-  padding-top: 18px;
+  padding-right: 25px;
+  border-radius: 90%;
 }
 .statistics__container  .statistics__box:nth-child(3) .statistics__circle {
   background-color: #55DFB4;
-  padding-left: 30px;
-  padding-top: 9px;
+  padding-right: 5px;
+  border-radius: 90%;
   
 }
 
@@ -241,11 +247,10 @@ section {
 
 .pricing__boxes {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
+  align-items: stretch;
+  justify-content: space-around;
   border: 1px solid var(--whiteblue-color);
-  margin-top: 34px;
+  
 }
 
 
@@ -267,9 +272,12 @@ section {
   width: 100px;
   height: 100px;
   margin: 0 40px;
-  box-shadow: 5px 1px 27px var(--primary-shadow-color);
+  background-color: var(--white-color);
+  box-shadow: 5px 1px 27px var(--primary-shadow-color);  */
   margin-top: 34px;
-
+}
+.pricing__box--professional:hover {
+  box-shadow: var(--primary-shadow-color);
 }
 .pricing__box--premium {
   width: 100px;
@@ -277,6 +285,10 @@ section {
   margin: 0 40px;
   
 }
+.pricing__items {
+
+}
+
 
 .pricing__box--professional .pricing__type {
   font-size: 1.3125rem;
