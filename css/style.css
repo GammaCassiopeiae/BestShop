@@ -97,28 +97,27 @@ nav .nav__header .nav__element {
 }
 
 
-a .btn-primary1 {
+.btn-primary1 {
   border: none;
   border-radius: var(--button-radius);
   margin: 1px solid var(--darkpinky-color);
   background-color: var(--darkpinky-color);
   color: var(--white-color);
-  padding: 20px 155px;
+  padding: 20px 80px;
 }
-a .btn-primary2 {
+.btn-primary2 {
   border: none;
   border-radius: var(--button-radius);
   background-color: var(--primary-color);
   color: var(--white-color);
-  padding: 20px 155px;
+  padding: 20px 80px;
 }
-a .btn-primary3 {
+.btn-primary3 {
   border: none;
   border-radius: var(--button-radius);
-  
   background-color: var(--tealgreen-color);
   color: var(--white-color);
-  padding: 20px 155px;
+  padding: 20px 80px;
 }
 
 
