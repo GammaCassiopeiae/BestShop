@@ -36,6 +36,7 @@ White (color-white) #FFFFFF*/
 body {
   font-family: var(--font-open-sans);
   width: 100%;
+  
 }
 h2 {
   font-family: var(--font-raleway);
@@ -212,7 +213,7 @@ nav .nav__header .nav__element {
 
 
 .benefits__div .benefits__image1 {
-  padding-left: 400px;
+  padding-left: 500px;
 }
  
 .benefits__image2 {
@@ -271,8 +272,8 @@ section {
 /*** Professional Box **/
 .pricing__box--professional {
   --accent-color: var(--primary-color);
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 80px;
   margin: 0 40px;
   background-color: var(--white-color);
   box-shadow: 5px 1px 27px var(--primary-shadow-color);  */
