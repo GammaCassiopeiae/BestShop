@@ -314,14 +314,12 @@ section {
   color: var(--black-color);
 }
 
-
 .contact__column .btn-primary {
   border-radius: 70px;
   background-color: var(--primary-color);
   padding: 25px 155px;
   color: var(--white-color);
 }
-
 
 .form__checkbox {
   display: block;
@@ -466,5 +464,5 @@ section {
 }
 
 .footer__icons a:first-of-type {
-  margin-right: 25px;
+  margin-right: 35px;
 }
